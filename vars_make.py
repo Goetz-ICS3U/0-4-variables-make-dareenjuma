@@ -15,8 +15,8 @@ oct_length = int(input("Input side length of an octagon"))
 
 #circle
 
-circlearea = (3.14)*(radius**2)
-circleperimeter = (2)*(3.14)*(radius)
+circlearea = (3.14*radius)**2
+circleperimeter = (3.14*2)*(radius)
 
 #rectangle
 
