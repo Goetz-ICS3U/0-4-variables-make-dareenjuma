@@ -3,8 +3,8 @@ author: Dareen Juma
 date: 19/02/26
 Variables Make
 """
-
-#Input
+import math 
+#Input 
 
 radius = int(input("Input radius of a circle"))
 length = int(input("Input length of a rectangle"))
@@ -15,8 +15,8 @@ oct_length = int(input("Input side length of an octagon"))
 
 #circle
 
-circlearea = 3.14*radius**2
-circleperimeter = 3.14*2*radius
+circlearea = math.pi*radius**2
+circleperimeter = math.pi*2*radius
 
 #rectangle
 
